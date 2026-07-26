@@ -2,7 +2,7 @@
 
 A polymorphic Java console application that simulates a real-world vehicle rental system. It manages dynamic fleets, tracks real-time rental states, calculates vehicle-specific rental charges, and generates auto-formatted text receipts on local storage.
 
----------------------------------------------
+---
 
 ## 🚀 Key Features & Concepts Implemented
 
