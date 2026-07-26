@@ -16,10 +16,28 @@ A polymorphic Java console application that simulates a real-world vehicle renta
 
 ## 🏗️ Architecture Overview
 
-```text
 📦 VehicleRentingAndServicePortal
- ├── 📄 Rentable.java        --> Interface defining rental state methods
- ├── 📄 Vehicle.java         --> Abstract Parent class holding state, getters/setters & Interface logic
- ├── 📄 Car.java             --> Concrete child class overriding Car pricing logic
- ├── 📄 Bike.java            --> Concrete child class overriding Bike pricing logic[cite: 19]
- └── 📄 RentableSystem.java  --> Main Driver class with dynamic Scanner loop & File IO engine[cite: 22]
+ ├── 📄 Rentable.java        --> Interface defining rental state methods.
+ ├── 📄 Vehicle.java         --> Abstract Parent class holding state, getters/setters & Interface logic.
+ ├── 📄 Car.java             --> Concrete child class overriding Car pricing logic.
+ ├── 📄 Bike.java            --> Concrete child class overriding Bike pricing logic.
+ └── 📄 RentableSystem.java  --> Main Driver class with dynamic Scanner loop & File IO engine. 
+
+
+## 💻 How to Compile & Run
+Bash
+# Compile all source files
+javac VehicleRentingAndServicePortal/*.java
+
+# Run main driver class
+java VehicleRentingAndServicePortal.RentableSystem
+📄 Sample Generated Receipt Output (Receipt<CustomerName>.txt)
+Plaintext
+====================================
+       VEHICLE RENTAL RECEIPT         
+Customer Name : Vikas
+Vehicle NumberPlate : UP 12 BZ 2023
+Vehicle Brand : Swift
+Day : 3
+Total Cost : ₹ 4200.0
+====================================
